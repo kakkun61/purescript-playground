@@ -1,5 +1,5 @@
 {
-  "name": "purescript-hello",
+  "name": "purescript-hello-console",
   "version": "1.0.0",
   "main": "index.html",
   "authors": [
