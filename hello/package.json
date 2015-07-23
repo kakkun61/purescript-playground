@@ -1,0 +1,26 @@
+{
+  "name": "purescript-hello",
+  "version": "1.0.0",
+  "main": "index.html",
+  "dependencies": {
+    "bower": "^1.4.1",
+    "purescript": "^0.7.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build": "bower install && psc --ffi 'bower_components/purescript-*/src/**/*.js' 'bower_components/purescript-*/src/**/*.purs' src/Main.purs && psc-bundle output/*/*.js --module Main --main Main -o output/main.js && cp src/index.html output/",
+    "build-cmd": "bower install && psc --ffi 'bower_components\\purescript-*\\src\\**\\*.js' 'bower_components\\purescript-*\\src\\**\\*.purs' src\\Main.purs && psc-bundle output\\*\\*.js --module Main --main Main -o output\\main.js && copy src\\index.html output\\",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/kakkun61/purescript-playground.git"
+  },
+  "author": "Kazuki Okamoto",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kakkun61/purescript-playground/issues"
+  },
+  "homepage": "https://github.com/kakkun61/purescript-playground",
+  "description": ""
+}

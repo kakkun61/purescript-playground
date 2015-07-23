@@ -1,0 +1,20 @@
+{
+  "name": "purescript-hello",
+  "version": "1.0.0",
+  "main": "index.html",
+  "authors": [
+    "Kazuki Okamoto"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/kakkun61/purescript-playground",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "purescript-console": "~0.1.0"
+  }
+}
