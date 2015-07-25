@@ -5,7 +5,7 @@
 ```
 $ npm install
 $ npm run build # on sh
-$ nom run build-cmd # on cmd
+$ npm run build-cmd # on cmd
 ```
 
 Browse output/index.html.
