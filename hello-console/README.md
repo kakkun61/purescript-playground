@@ -8,4 +8,4 @@ $ npm run build # on sh
 $ nom run build-cmd # on cmd
 ```
 
-Browse output/index.json.
+Browse output/index.html.
